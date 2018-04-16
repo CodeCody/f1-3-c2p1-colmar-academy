@@ -1,0 +1,79 @@
+
+.mobile {
+  display: flex;
+  visibility: visible;
+  width: 100%;
+  justify-content: space-around;
+  border: 1px solid red;
+}
+
+.non-mobile {
+  display: none;
+  visibility: hidden;
+}
+
+.thesisSection h2, .thesisSection p {
+  display: none;
+  visibility: hidden;
+}
+header {
+  display: flex;
+  width: inherit;
+  justify-content: space-around;
+}
+footer nav {
+  display: none;
+  visibility: hidden;
+}
+.startSection {
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.startSection img {
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content {
+  margin: 0;
+}
+.eventSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.eventDivisionTwo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+
+
+}
+
+.eventItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.eventItem img {
+  width: 80%;
+  height: auto;
+
+}
+
+.mobile img {
+  visibility: visible;
+  display: inline-block;
+}
+
+.thesisSection div {
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 1rem;
+}

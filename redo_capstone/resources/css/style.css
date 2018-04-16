@@ -1,0 +1,311 @@
+
+html {
+  font-size: 16px;
+
+  font-family: "Roboto",sans-serif;
+}
+
+header {
+  height: 4rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h1, h2 {
+  color: #565656;
+  font-weight: bold;
+}
+
+p {
+  color: #565656;
+}
+
+/* HEADER SECTION */
+
+.headerDiv {
+  width: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.logoAndName {
+  display: flex;
+  margin-left: 1.5rem;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logoAndName img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.logoAndName p {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+#boldDark {
+  font-weight: bold;
+
+}
+.grayBackground {
+  background-color: #cfd1d0;
+}
+nav {
+  margin-right: .5rem;
+}
+
+.navigationHeader a {
+  margin-right: 1rem;
+}
+
+.content {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/********** BANNER SECTION ***********/
+
+.startSection {
+  display: flex;
+  align-items: center;
+  width: inherit;
+}
+
+.startSection img {
+  width: 60%;
+  height: auto;
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.bannerMessage {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  max-width: 25rem;
+  padding: 0;
+
+}
+
+.startSection h1 {
+  font-size: 3rem;
+}
+
+.startSection h2 {
+ margin-top: 1.5rem;
+}
+
+.startSection button {
+  margin-top: 1.5rem;
+  padding-top: .5rem;
+  width: 100%;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #565656;
+  padding-bottom: .5rem;
+}
+
+.mobile {
+  visibility: hidden;
+  display: none;
+}
+.eventSection {
+  display: flex;
+}
+
+.eventDivisionOne {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: 60%;
+
+}
+
+.eventDivisionOne img {
+  width: 100%;
+  height: auto;
+}
+
+.eventDivisionOne h1 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.eventDivisionOne p {
+  margin-bottom: 2rem;
+
+}
+
+.eventDivisionTwo {
+  width: 40%;
+
+}
+
+.eventItem {
+  display: flex;
+}
+
+.eventItem img {
+  height: 25%;
+  width: 35%;
+  margin: 1rem;
+}
+
+.eventItem div {
+  display: flex;
+  flex-direction: column;
+
+  max-height: 33%;
+  width: 65%;
+  justify-content: center;
+}
+
+.eventItem p {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.eventItem a {
+  color: blue;
+}
+
+.courseSection h1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.courseSection {
+  display: flex;
+  width: inherit;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.courses {
+  display: flex;
+  justify-content: center;
+
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+  flex-wrap: wrap;
+}
+
+.course {
+  max-width: 20rem;
+  justify-content: center;
+  margin-right: 2rem;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+
+
+.course h2 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.course p {
+  margin-top: .5rem;
+  margin-left: 1rem;
+  margin-bottom: .5rem;
+}
+.course img {
+  width: 20rem;
+}
+
+.thesisSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thesisSection h1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.thesisContent {
+  margin-left: 1.5rem;
+  display: flex;
+}
+
+.thesisSubDivOne {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.thesisSubDivOne h2 {
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+.thesisSubDivOne p {
+  margin-bottom: 2rem;
+}
+.thesisSubDivOne video {
+  width: 100%;
+}
+
+.thesisSubDivTwo {
+  width: 40%;
+  margin-left: 1.5rem;
+}
+
+.thesisItem {
+  display: flex;
+}
+
+.thesisItem img {
+  width: 35%;
+  height: 25%;
+  margin: 1rem;
+}
+
+.thesisItem div {
+  width: 65%;
+  display: flex;
+  margin-left: 1rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thesisItem p {
+  margin-top: 1rem;
+}
+
+footer {
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+
+}
+
+footer p {
+  margin-top: 1rem;
+  display: inline;
+  color: #565656;
+}
+
+footer nav {
+  display: inline;
+  float: right;
+}
+
+footer a {
+  margin-left: 1rem;
+  color: #565656;
+}
